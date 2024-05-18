@@ -12,8 +12,28 @@ header {
     text-align: center;
 }
 
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
 main {
     padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
 }
 
 footer {
@@ -24,9 +44,4 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-}
-
-#chart {
-    width: 100%;
-    height: 500px;
 }
